@@ -3,10 +3,8 @@ A proposed solution to the Entity Resultion Category of the 2nd DI2KG Workshop C
 # Comments:
 A solution highly tailored to the domain, with the core strategies of: information propagation for model detection, carefully-tuned brand and model extraction (with domain-specific choices).
 
-************************************
-
 # Program assumptions (other than requirements):
-The domain-specific choices we made are limited to: 
+### The domain-specific choices we made are limited to: 
     1. cleaning of site-specific texts for better TF-IDF results
     2. non-exhaustive brand (attribute) keywords, extracted by looking at some examples of the data 
     3. brand names that were extracted with a bit of a human-in-the-loop process (where we saw the brand names emerging and collected alternative names),
@@ -24,7 +22,8 @@ We consider the hard-coded rules to deter from our generality. However, we inclu
     
     
 # How to Run the code?
-Run the python file with this command : python3 SchemaMatching.py
+### Run the python file with this command : 
+python3 SchemaMatching.py
 
 
 # Installed Python Libraries:
@@ -45,4 +44,5 @@ Run the python file with this command : python3 SchemaMatching.py
     threadpoolctl-2.1.0        |     pyh5ca1d4c_0          15 KB  conda-forge
 
 
-# Note : This is an ongoing project and any changes done will be pushed in this repository. This repository is a part of the code submission on the DI2KG Workshop Challenge (Monitor Data, Domain knowledge approach).
+# Note : 
+### This is an ongoing project and any changes done will be pushed in this repository. This repository is a part of the code submission on the DI2KG Workshop Challenge (Monitor Data, Domain knowledge approach).
